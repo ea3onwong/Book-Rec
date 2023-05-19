@@ -46,6 +46,8 @@ Note: In step e make sure there are no quotation marks before or after the API k
 13. Type `python app.py` into the terminal to start the flask server.
   - If the command does not work try using `python3` instead.
 
+----------
+
 # Frontend
 ## Prerequisites
 - Install Node 16.x and the latest version of Node Package Manager (`npm`)
