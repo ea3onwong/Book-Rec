@@ -31,17 +31,15 @@ In order to set up the backend of the application you must:
 6. Type `cd Scripts/` and with your preferred text editor open the activate (no extensions).
 7. Find the line wherein the following code is written: `export PATH`
 8. Add the following lines underneath `export PATH` and save your changes.: 
-  a. `export DB_USR=”admin”`
-  b. `export DB_PWD=”zs9k2g7xnkdaSZo8”`
-  c. `export MAIL_USR=”bookrec.group1@gmail.com”`
-  d. `export MAIL_PWD=”botbqujrswxrlrjk”`
-  e. `export API_KEY={Your own Google Books API Key}`
-  f. `export NYT_API_KEY=”{Your own New York Times API Key}”`
-  - Note: In step e make sure there are no quotation marks before or after the API key
-  
-  - Replace `{Your own Google Books API Key}` with your own Google Books API key. You can obtain an API key by following the documentation provided by Google Books.
-  
-  - Replace `{Your own New York Times API Key}` with your own New York Times API key. You can obtain an API key by signing up for an account on the New York Times Developer Portal.
+a. `export DB_USR=”admin”` 
+b. `export DB_PWD=”zs9k2g7xnkdaSZo8”`
+c. `export MAIL_USR=”bookrec.group1@gmail.com”`
+d. `export MAIL_PWD=”botbqujrswxrlrjk”`
+e. `export API_KEY={Your own Google Books API Key}`
+f. `export NYT_API_KEY=”{Your own New York Times API Key}”`
+- Note: In step e make sure there are no quotation marks before or after the API key
+- Replace `{Your own Google Books API Key}` with your own Google Books API key. You can obtain an API key by following the documentation provided by Google Books.
+- Replace `{Your own New York Times API Key}` with your own New York Times API key. You can obtain an API key by signing up for an account on the New York Times Developer Portal.
 
 1. Type `source activate` into the terminal to start the virtual environment. You should notice the name of your virtual environment in parentheses in the terminal
  Navigate back to the backend directory by typing `cd ../..` or by any other method you prefer.
