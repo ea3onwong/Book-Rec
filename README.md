@@ -35,8 +35,8 @@ In order to set up the backend of the application you must:
   - `export DB_PWD=”zs9k2g7xnkdaSZo8”`
   - `export MAIL_USR=”bookrec.group1@gmail.com”`
   - `export MAIL_PWD=”botbqujrswxrlrjk”`
-  - `export API_KEY=AIzaSyBlw1w8WDYonWL2QqU2dIyetMDraG7D-iU`
-  - `export NYT_API_KEY=”n1ePSbY6gLA4kSkxJMSnOyeptP4CvywC”`
+  - `export API_KEY={Your own Google Books API Key}`
+  - `export NYT_API_KEY=”{Your own New York Times API Key}”`
 Note: In step e make sure there are no quotation marks before or after the API key
 9. Type `source activate` into the terminal to start the virtual environment. You should notice the name of your virtual environment in parentheses in the terminal
  Navigate back to the backend directory by typing `cd ../..` or by any other method you prefer.
