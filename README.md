@@ -30,23 +30,24 @@ In order to set up the backend of the application you must:
   - If `python -m venv .` does not work. Try to substitute `python` for `python3` or to give an absolute path for the location of the folder created in step 3 instead of using `.`(dot).
 6. Type `cd Scripts/` and with your preferred text editor open the activate (no extensions).
 7. Find the line wherein the following code is written: `export PATH`
-8. Add the following lines underneath `export PATH` and save your changes.: 
-a. `export DB_USR=”admin”` 
-b. `export DB_PWD=”zs9k2g7xnkdaSZo8”`
-c. `export MAIL_USR=”bookrec.group1@gmail.com”`
-d. `export MAIL_PWD=”botbqujrswxrlrjk”`
-e. `export API_KEY={Your own Google Books API Key}`
-f. `export NYT_API_KEY=”{Your own New York Times API Key}”`
-- Note: In step e make sure there are no quotation marks before or after the API key
-- Replace `{Your own Google Books API Key}` with your own Google Books API key. You can obtain an API key by following the documentation provided by Google Books.
-- Replace `{Your own New York Times API Key}` with your own New York Times API key. You can obtain an API key by signing up for an account on the New York Times Developer Portal.
+8. Add the following lines underneath `export PATH` and save your changes: 
+  - `export DB_USR=”admin”`  
+  - `export DB_PWD=”zs9k2g7xnkdaSZo8”`
+  - `export MAIL_USR=”bookrec.group1@gmail.com”`
+  - `export MAIL_PWD=”botbqujrswxrlrjk”`
+  - `export API_KEY={Your own Google Books API Key}`
+  - `export NYT_API_KEY=”{Your own New York Times API Key}”`
+  
+    Note: In step e make sure there are no quotation marks before or after the API key.
+  Replace `{Your own Google Books API Key}` with your own Google Books API key. You can obtain an API key by following the documentation provided by Google Books.
+  Replace `{Your own New York Times API Key}` with your own New York Times API key. You can obtain an API key by signing up for an account on the New York Times Developer Portal.
 
-1. Type `source activate` into the terminal to start the virtual environment. You should notice the name of your virtual environment in parentheses in the terminal
+9. Type `source activate` into the terminal to start the virtual environment. You should notice the name of your virtual environment in parentheses in the terminal
  Navigate back to the backend directory by typing `cd ../..` or by any other method you prefer.
-1.  You should  still be able to see the name of your virtual environment in parentheses. Type `pip install -r requirements.txt` into the terminal to download all the requirements for the backend. This process may take some time.
-2.   Type `python download_words.py` to download word lists needed for the recommender system. This may take some time.
+10.  You should  still be able to see the name of your virtual environment in parentheses. Type `pip install -r requirements.txt` into the terminal to download all the requirements for the backend. This process may take some time.
+11.   Type `python download_words.py` to download word lists needed for the recommender system. This may take some time.
   - Again if `python` does not work try `python3`.
-3.   Type `python app.py` into the terminal to start the flask server.
+12.   Type `python app.py` into the terminal to start the flask server.
   - If the command does not work try using `python3` instead.
 
 ----------
